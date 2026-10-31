@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/sh
+# Home Assistant service
+# Run with --skip-pip to avoid uv issues on Termux
+exec hass --config ~/.homeassistant --skip-pip --ignore-os-check 2>&1

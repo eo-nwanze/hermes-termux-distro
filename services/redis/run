@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/sh
+exec redis-server --daemonize no 2>&1

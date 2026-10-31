@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/sh
+export LOGDIR=${LOGDIR:-/data/data/com.termux/files/usr/var/log}
+mkdir -p "$LOGDIR/sv/ollama"
+exec svlogd -tt "$LOGDIR/sv/ollama"

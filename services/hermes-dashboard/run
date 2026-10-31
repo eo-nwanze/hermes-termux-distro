@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+# Hermes web dashboard on port 9119 (for the F-Droid hermes-mobile app)
+exec 2>&1
+cd "$HOME"
+export PATH="$PREFIX/bin:$PATH"
+exec /data/data/com.termux/files/usr/lib/hermes-agent/bin/hermes \
+  dashboard --host 0.0.0.0 --port 9119 --no-open --skip-build
