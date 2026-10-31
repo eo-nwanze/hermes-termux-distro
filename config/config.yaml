@@ -604,56 +604,8 @@ smart_model_routing:
   max_simple_chars: 160
   max_simple_words: 28
   cheap_model: {}
-custom_providers:
-  - 
-    base_url: 
-    key_env: ""
-    model: ukisai/Swift-Qwen3.8-27B-GGUF
-    api_mode: chat_completions
-    models:
-      ukisai/Swift-Qwen3.8-27B-GGUF: {}
-      Reza2kn/Jev-Omni-Q4_K_M-GGUF: {}
-      chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF: {}
-      peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP: {}
-      terrorswift/REDCELL-26B-A4B-OSINT-Cyber-APEX-GGUF: {}
-      mradermacher/Qwen3.8-27B-Uncensored-FP8-GGUF: {}
-      RentedNoodle/Qwen3.8-27B-GSQ-RCO-IQ3_XXS-Uncensored: {}
-      TheWegemann/Qwen3.8-27B-LowGPU-uncensored-NoMTP-IQ3XXXS-GGUF: {}
-      braydenh563/Qwen3.6-35B-Uncensored-HauhauCS-1M-MTP-Ollama: {}
-      dealignai/Ornith-1.5-35B-A3B-UNCENSORED-GGUF: {}
-      oxide-lab/LTX-Video-0.9.8-2B-distilled: {}
-      unsloth/Qwen3.6-35B-A3B-MTP-GGUF: {}
-      unsloth/Qwen-AgentWorld-35B-A3B-GGUF: {}
-      unsloth/Qwen3.8-27B-GGUF: {}
-      qwen38: {}
-      engram-ae/Nemotron-3.5-Lightning-Omni-30B-A3B-GGUF: {}
-      unsloth/Qwen3.6-35B-A3B-GGUF: {}
-      lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF: {}
-      lmstudio-community/GLM-4.7-Flash-GGUF: {}
-      unsloth/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF: {}
-      TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T: {}
-      unsloth/FLUX.2-klein-9B-GGUF: {}
-      unsloth/Qwen-Image-2.1-FP8: {}
-      unsloth/Qwen-Image-2.1-GGUF: {}
-      unsloth/Z-Image-Turbo-unsloth-bnb-4bit: {}
-      vantagewithai/Krea-2-Turbo-GGUF: {}
-      unsloth/Wan2.2-TI2V-5B-GGUF: {}
-    models_discovered: true
-  - 
-    base_url: 
-    model: qwen3.8-flash-next-iq3_s
-    api_mode: chat_completions
-    models:
-      qwen3.8-flash-next-iq3_s: {}
-    models_discovered: true
-  - 
-    base_url: 
-    key_env: ""
-    model: qwen3.8-flash-next-iq2_xs
-    api_mode: chat_completions
-    models:
-      qwen3.8-flash-next-iq2_xs: {}
-    models_discovered: true
+custom_providers: []
+
 group_sessions_per_user: true
 platform_toolsets:
   cli:
