@@ -13,6 +13,17 @@ A complete working Hermes Agent setup for **unrooted Android phones** via Termux
 - `HERMES_NVIDIA_API_KEY` — vision + model inference (free at NVIDIA NIM)
 - `API_SERVER_KEY` — any 48-char hex (`openssl rand -hex 24`)
 
+## API Keys Friends Need
+
+| Provider | Key | Free? | URL |
+|----------|-----|-------|-----|
+| **OpenRouter** | `OPENROUTER_API_KEY` | Yes — 50 req/day | https://openrouter.ai/keys |
+| **NVIDIA NIM** | `HERMES_NVIDIA_API_KEY` | Yes — free vision tier | https://build.nvidia.com/explore/discover |
+| **Dashboard** | `API_SERVER_KEY` | No key needed | `openssl rand -hex 24` |
+| **Ollama** | none | Free, local | `localhost:11434` |
+
+Minimum: OpenRouter key + `API_SERVER_KEY` + Termux from F-Droid
+
 ## Install
 
 ```bash
