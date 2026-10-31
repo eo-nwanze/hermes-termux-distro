@@ -1,7 +1,8 @@
 # Secrets - NEVER commit
 config/.env
 *.env
-.env.*
+# Runtime env files only (allow .env.example)
+.env
 
 # Runtime data
 skills/*/cache/
