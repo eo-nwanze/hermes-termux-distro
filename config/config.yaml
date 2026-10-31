@@ -1,9 +1,6 @@
 model:
-  default: qwen3.8-flash-next-iq2_xs
-  provider: custom
-  base_url: 
-  api_mode: chat_completions
-  
+  default: deepseek-v4-flash:cloud
+  provider: ollama-launch
 providers:
   ollama-launch:
     api: http://127.0.0.1:11434/v1
@@ -309,7 +306,7 @@ dashboard:
     username: admin
     password_hash: ""
     password: CHANGE_ME
-    secret: pFUdP+T/90Fz2zOJ+bjpf6evBK/SLMrvnU5ihhS5b3E=
+    secret: ""
     session_ttl_seconds: 0
   public_url: ''
 privacy:
