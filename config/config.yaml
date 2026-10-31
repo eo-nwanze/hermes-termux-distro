@@ -1,13 +1,13 @@
 model:
   default: qwen3.8-flash-next-iq2_xs
   provider: custom
-  base_url: https://fdstrata.endevops.net/v1
+  base_url: 
   api_mode: chat_completions
-  api_key: ""
+  
 providers:
   ollama-launch:
     api: http://127.0.0.1:11434/v1
-    default_model: deepseek-v4-flash:cloud
+      default_model: deepseek-v4-flash:cloud
     models:
       - deepseek-v4-flash:cloud
       - minimax-m2.7:cloud
@@ -154,88 +154,88 @@ auxiliary:
     provider: nvidia
     model: meta/llama-3.2-90b-vision-instruct
     base_url: ''
-    api_key: ''
+    
     timeout: 120
     download_timeout: 30
   compression:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 120
   skills_hub:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
   approval:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
   mcp:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
   title_generation:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
     language: ''
   tts_audio_tags:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
   triage_specifier:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 120
   kanban_decomposer:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 180
   profile_describer:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 60
   curator:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 600
   monitor:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 60
   web_extract:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 360
     extra_body: {}
   session_search:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
     extra_body: {}
     max_concurrency: 3
@@ -243,7 +243,7 @@ auxiliary:
     provider: auto
     model: ''
     base_url: ''
-    api_key: ''
+    
     timeout: 30
 display:
   compact: false
@@ -307,8 +307,8 @@ dashboard:
     portal_url: ''
   basic_auth:
     username: admin
-    password_hash: ''
-    password: bb0caf8f19
+    password_hash: ""
+    password: CHANGE_ME
     secret: pFUdP+T/90Fz2zOJ+bjpf6evBK/SLMrvnU5ihhS5b3E=
     session_ttl_seconds: 0
   public_url: ''
@@ -391,7 +391,7 @@ delegation:
   model: ''
   provider: ''
   base_url: ''
-  api_key: ''
+  
   api_mode: ''
   inherit_mcp_toolsets: true
   max_iterations: 250
@@ -605,8 +605,8 @@ smart_model_routing:
   max_simple_words: 28
   cheap_model: {}
 custom_providers:
-  - name: Unsloth.endevops.net
-    base_url: https://unsloth.endevops.net/v1
+  - 
+    base_url: 
     key_env: ""
     model: ukisai/Swift-Qwen3.8-27B-GGUF
     api_mode: chat_completions
@@ -639,15 +639,15 @@ custom_providers:
       vantagewithai/Krea-2-Turbo-GGUF: {}
       unsloth/Wan2.2-TI2V-5B-GGUF: {}
     models_discovered: true
-  - name: Strata.endevops.net
-    base_url: https://strata.endevops.net/v1
+  - 
+    base_url: 
     model: qwen3.8-flash-next-iq3_s
     api_mode: chat_completions
     models:
       qwen3.8-flash-next-iq3_s: {}
     models_discovered: true
-  - name: Fdstrata.endevops.net
-    base_url: https://fdstrata.endevops.net/v1
+  - 
+    base_url: 
     key_env: ""
     model: qwen3.8-flash-next-iq2_xs
     api_mode: chat_completions
